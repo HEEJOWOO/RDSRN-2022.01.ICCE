@@ -56,8 +56,6 @@ class CCA(nn.Module):
         return x
         
 class DWCB(nn.Module):
-
-            
     def __init__(self,growth_rate,wn):
         super(DWCB, self).__init__()
         wn = wn
