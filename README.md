@@ -14,5 +14,5 @@
 
 |Input|Ground Truth|Bicubic Upsample|Super Resolution|
 |-----|------------|----------------|----------------|
-|![1_input_x4](https://user-images.githubusercontent.com/61686244/129197359-a44233f5-54dc-424c-bf63-b265b2c9cd97.png)|![1_rectangle](https://user-images.githubusercontent.com/61686244/129199172-6d33e50d-0f07-4452-9ba8-4841852c3f4e.png)|![1_bicubic_x4_rectangle](https://user-images.githubusercontent.com/61686244/129199322-bd43f153-b380-4ceb-95d4-cf4518665288.png)|![1_SR_x4_rectangle](https://user-images.githubusercontent.com/61686244/129199385-542b9a8f-0023-429f-860e-a684e8b49b4a.png)|
+|![1_input_x4](https://user-images.githubusercontent.com/61686244/129197359-a44233f5-54dc-424c-bf63-b265b2c9cd97.png)|![100000](https://user-images.githubusercontent.com/61686244/129200210-c6452137-cb3c-4cdd-a08b-8fd88e5b44b0.png)|![1_bicubic_x4](https://user-images.githubusercontent.com/61686244/129200248-84e4bee7-1a37-4263-80fc-8539854c6698.png)|![1_SR_x4](https://user-images.githubusercontent.com/61686244/129200275-6380efc8-8b6a-4b97-ac44-280861bfd942.png)|
 
