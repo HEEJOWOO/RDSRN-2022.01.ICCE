@@ -14,5 +14,5 @@
 
 |Ground Truth|Input|Bicubic Upsample|Super Resolution|
 |------------|-----|----------------|----------------|
-|![100000](https://user-images.githubusercontent.com/61686244/129196758-a9b82c7d-3b6d-47d7-ad47-c66f2a54cfc1.png){: width="300" height="300"}||||
+|![100000](https://user-images.githubusercontent.com/61686244/129196758-a9b82c7d-3b6d-47d7-ad47-c66f2a54cfc1.png){: width="300" height="300"}|
 
