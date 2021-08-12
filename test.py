@@ -3,8 +3,7 @@ import torch
 import torch.backends.cudnn as cudnn
 import numpy as np
 import PIL.Image as pil_image
-
-from models import Net
+from models import RDSRN
 from utils import convert_rgb_to_y, denormalize, calc_psnr
 import time
 
@@ -23,7 +22,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     cudnn.benchmark = True
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    model = Net(scale_factor=args.scale,num_channels=args.num_channels,num_features=args.num_features,growth_rate=args.growth_rate,num_layers=args.num_layers,B=args.B, U=args.U).to(device)
+    model = RDSRN(scale_factor=args.scale,num_channels=args.num_channels,num_features=args.num_features,growth_rate=args.growth_rate,num_layers=args.num_layers,B=args.B, U=args.U).to(device)
     state_dict = model.state_dict()
     for n, p in torch.load(args.weights_file, map_location=lambda storage, loc: storage).items():
         if n in state_dict.keys():
