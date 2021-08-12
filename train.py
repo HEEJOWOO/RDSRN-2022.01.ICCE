@@ -14,7 +14,6 @@ from utils import AverageMeter, denormalize, calc_psnr, load_weights, convert_rg
 import torchsummary
 from thop import profile
 from ptflops import get_model_complexity_info
-from adamp import AdamP
 from prettytable import PrettyTable
 from FLOPs.profile import profile
 from torchstat import stat
