@@ -50,17 +50,19 @@ if __name__ == '__main__':
     
     model = RDSRN(scale_factor=args.scale, num_channels=args.num_channels, num_features=args.num_features,growth_rate=args.growth_rate, U=args.U)
     
-    ###############################################################################
-    #check params & macs
+    
     macs, params = get_model_complexity_info(model, (3, 320, 180), as_strings=True,
                                            print_per_layer_stat=True, verbose=True)
+    model.to(device)
+    ###############################################################################
+    #check params & macs
     print(model)
     print('{:<30}  {:<8}'.format('Computational complexity: ', macs))
     print('{:<30}  {:<8}'.format('Number of parameters: ', params))
     print('Memory(GB) : %.3f'%(torch.cuda.memory_allocated(device)/1000/1000))
     ###############################################################################
     
-    model.to(device)
+    
     writer=SummaryWriter()
 
     if args.weights_file is not None:
