@@ -10,15 +10,15 @@
 ## Quantitative comparison
  * PSNR & SSIM
 
-![image](https://user-images.githubusercontent.com/61686244/129209001-605b41ec-bdf2-42b6-af5d-7b57d8243753.png)
+![image](https://user-images.githubusercontent.com/61686244/129210102-c84ec6f5-2469-4b8b-a571-bc039bb6727b.png)
  
  * Params & Multi-Adds
 
-![image](https://user-images.githubusercontent.com/61686244/129209411-f753bfa0-087b-4a03-8cde-16bdfc1fc5d5.png)
+![image](https://user-images.githubusercontent.com/61686244/129209904-4d76255a-a2ec-4b34-8bd9-9ac20335d1fe.png)
 
  * Processing Time
 
-![image](https://user-images.githubusercontent.com/61686244/129209611-135f1273-5f2d-4f21-ae55-105c9be0991f.png)
+![image](https://user-images.githubusercontent.com/61686244/129210191-c1fe199b-efbc-465b-9e96-c32f706c6220.png)
 
 ## Network Architecture
 
