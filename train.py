@@ -12,10 +12,8 @@ from models import RDSRN
 from datasets import TrainDataset, EvalDataset
 from utils import AverageMeter, denormalize, calc_psnr, load_weights, convert_rgb_to_y
 import torchsummary
-from thop import profile
 from ptflops import get_model_complexity_info
 from prettytable import PrettyTable
-from FLOPs.profile import profile
 from torchstat import stat
 
 if __name__ == '__main__':
