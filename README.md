@@ -3,6 +3,25 @@
   * This is a repository for the network used in the master graduation paper.
 
 
+
+
+
+
+## Quantitative comparison
+ * PSNR & SSIM
+
+![image](https://user-images.githubusercontent.com/61686244/129209001-605b41ec-bdf2-42b6-af5d-7b57d8243753.png)
+ 
+ * Params & Multi-Adds
+
+![image](https://user-images.githubusercontent.com/61686244/129209411-f753bfa0-087b-4a03-8cde-16bdfc1fc5d5.png)
+
+ * Processing Time
+
+![image](https://user-images.githubusercontent.com/61686244/129209611-135f1273-5f2d-4f21-ae55-105c9be0991f.png)
+
+## Network Architecture
+
 ![0_2page](https://user-images.githubusercontent.com/61686244/129152667-385afc5f-17dd-439b-a972-95af90b3ce85.png)
 
 ![1_2page](https://user-images.githubusercontent.com/61686244/129152680-2eacd3de-a94e-4f82-8361-9255b054a520.png)
@@ -14,6 +33,8 @@
 
 
 
+
+## Qualitative comparison
 
  * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
 
