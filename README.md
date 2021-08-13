@@ -35,7 +35,7 @@
 
 
 ## Qualitative comparison(Super Resolution)
-
+ * FSR : 0.5, Recursion : 3
  * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
 
 |Input(340x191)|Ground Truth(1360x764)|Bicubic Upsample(1360x764)|Super Resolution(1360x764)|
@@ -59,7 +59,7 @@
 |Crop Image ->|![100981_crop](https://user-images.githubusercontent.com/61686244/129206804-7ceaf27b-10b9-412e-bce4-e50c702b3416.png)|![13_bicubic_x4_crop](https://user-images.githubusercontent.com/61686244/129206840-bd79d73a-dfa6-4dc4-a0be-14ec48b56382.png)|![13_SR_x4_crop](https://user-images.githubusercontent.com/61686244/129206875-59fc9e09-dec2-4df1-b055-1d9b4c769cec.png)|
 
 ## Qualitative comparison(Denoising + Super Resolution)
-
+ * FSR : 0.5, Recursion : 3
  * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
 
 |Input(340x191)|Ground Truth(1360x764)|Bicubic Upsample(1360x764)|Super Resolution(1360x764)|
