@@ -74,8 +74,8 @@
 
 |Input(350x197)|Ground Truth(1400x788)|Bicubic Upsample(1400x788)|Super Resolution(1400x788)|
 |-----|------------|----------------|----------------|
-|![5_input_x4](https://user-images.githubusercontent.com/61686244/129204018-8bb72553-94b6-4106-b7b6-1d9cca06245b.png)|![100255](https://user-images.githubusercontent.com/61686244/129203781-a692ffad-b309-4d5f-a597-ebb1b1df626e.png)|![5_bicubic_x4](https://user-images.githubusercontent.com/61686244/129204058-c98e0f7f-96fc-49e1-9eb4-fd7058d0e300.png)|![5_SR_x4](https://user-images.githubusercontent.com/61686244/129205673-50edabcf-c4d7-4f34-801f-42e21f3f94ef.png)|
-|Crop Image ->|![100255_crop_x4](https://user-images.githubusercontent.com/61686244/129204143-27f42006-3656-4023-a6d2-e419254c0080.png)|![5_bicubic_x4_crop_x4](https://user-images.githubusercontent.com/61686244/129204172-84bb5cc6-9da6-4262-8bd3-aaa3ff88cf09.png)|![5_SR_x4_crop_x4](https://user-images.githubusercontent.com/61686244/129205767-d106d44e-8047-49bc-8789-7a43e3f78ad2.png)|
+|![2_input_x4](https://user-images.githubusercontent.com/61686244/129305783-d8a8bf1c-ca43-45f7-8671-ae05aebe0643.png)|![100255](https://user-images.githubusercontent.com/61686244/129203781-a692ffad-b309-4d5f-a597-ebb1b1df626e.png)|![2_bicubic_x4](https://user-images.githubusercontent.com/61686244/129305809-c914f1df-1dd4-4e35-a652-74598fca0380.png)|![2_SR_x4](https://user-images.githubusercontent.com/61686244/129305843-c7694dcd-ed51-4941-89fd-697d57891a70.png)|
+|Crop Image ->|![100255_crop_x4](https://user-images.githubusercontent.com/61686244/129204143-27f42006-3656-4023-a6d2-e419254c0080.png)|![2_bicubic_x4_crop](https://user-images.githubusercontent.com/61686244/129305981-dd796260-a2ff-4100-9288-d9b9490863cc.png)|![2_SR_x4_crop](https://user-images.githubusercontent.com/61686244/129306055-f3a904b1-f2aa-489f-9ee9-6d412489ec65.png)|
 
 |Input(350x197)|Ground Truth(1400x788)|Bicubic Upsample(1400x788)|Super Resolution(1400x788)|
 |-----|------------|----------------|----------------|
