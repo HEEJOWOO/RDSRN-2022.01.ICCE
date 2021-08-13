@@ -58,24 +58,6 @@
 |![13_input_x4](https://user-images.githubusercontent.com/61686244/129206595-d3b75a79-f3a7-4e15-af54-3759518f32c5.png)|![100981](https://user-images.githubusercontent.com/61686244/129206679-cd2e70c3-86a3-4e34-831a-bd953de30ddc.png)|![13_bicubic_x4](https://user-images.githubusercontent.com/61686244/129206724-0a3bcd04-b440-4e5c-8ccc-92c5460420cb.png)|![13_SR_x4](https://user-images.githubusercontent.com/61686244/129206753-ae0eef7b-4e36-448a-a30d-df60210aa171.png)|
 |Crop Image ->|![100981_crop](https://user-images.githubusercontent.com/61686244/129206804-7ceaf27b-10b9-412e-bce4-e50c702b3416.png)|![13_bicubic_x4_crop](https://user-images.githubusercontent.com/61686244/129206840-bd79d73a-dfa6-4dc4-a0be-14ec48b56382.png)|![13_SR_x4_crop](https://user-images.githubusercontent.com/61686244/129206875-59fc9e09-dec2-4df1-b055-1d9b4c769cec.png)|
 
-## Qualitative comparison(Denoising + Super Resolution)
- * FSR : 0.5, Recursion : 3
- * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
 
-|Input(340x191)|Ground Truth(1360x764)|Bicubic Upsample(1360x764)|Super Resolution(1360x764)|
-|-----|------------|----------------|----------------|
-|![3_input_x4](https://user-images.githubusercontent.com/61686244/129305233-7983124a-4e07-47d3-a8db-4f806e45342b.png)|![100000](https://user-images.githubusercontent.com/61686244/129200210-c6452137-cb3c-4cdd-a08b-8fd88e5b44b0.png)|![3_bicubic_x4](https://user-images.githubusercontent.com/61686244/129305391-824e315f-2bed-4a42-a3fb-0f8fb90de74b.png)|![3_SR_x4](https://user-images.githubusercontent.com/61686244/129305420-ce70a638-d1fa-434a-96a1-7b1347307b5f.png)|
-
-
-
-
-|Input(350x197)|Ground Truth(1400x788)|Bicubic Upsample(1400x788)|Super Resolution(1400x788)|
-|-----|------------|----------------|----------------|
-|![2_input_x4](https://user-images.githubusercontent.com/61686244/129305783-d8a8bf1c-ca43-45f7-8671-ae05aebe0643.png)|![100255](https://user-images.githubusercontent.com/61686244/129203781-a692ffad-b309-4d5f-a597-ebb1b1df626e.png)|![2_bicubic_x4](https://user-images.githubusercontent.com/61686244/129305809-c914f1df-1dd4-4e35-a652-74598fca0380.png)|![2_SR_x4](https://user-images.githubusercontent.com/61686244/129305843-c7694dcd-ed51-4941-89fd-697d57891a70.png)|
-
-
-|Input(350x197)|Ground Truth(1400x788)|Bicubic Upsample(1400x788)|Super Resolution(1400x788)|
-|-----|------------|----------------|----------------|
-|![1_input_x4](https://user-images.githubusercontent.com/61686244/129306179-0d6a0949-2a9b-4ebe-bbeb-31c4c6e8ac76.png)|![100981](https://user-images.githubusercontent.com/61686244/129206679-cd2e70c3-86a3-4e34-831a-bd953de30ddc.png)|![1_bicubic_x4](https://user-images.githubusercontent.com/61686244/129306230-5f409efc-bfe9-4fbd-a1d7-d291434a41dc.png)|![1_SR_x4](https://user-images.githubusercontent.com/61686244/129306257-2fad2a22-28e6-422b-abd3-602887df20fc.png)|
 
 
