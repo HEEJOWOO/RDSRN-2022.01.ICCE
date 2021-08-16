@@ -34,7 +34,7 @@
 
 
 ## Qualitative comparison(Video SR)
-### Use a modified [RDSRN](https://github.com/HEEJOWOO/RDSRN)(It will be updated soon.)
+ *  Video SR result confirmation at scale factor X4
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/61686244/129530563-294e55b3-2db1-4aea-8dfd-97ecc94dbf8f.gif)
 
