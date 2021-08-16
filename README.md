@@ -36,6 +36,8 @@
 ## Qualitative comparison(Video SR)
  *  Video SR result confirmation at scale factor X4 using bicubic upsample (Left) and proposed network (Right)
  *  320 x 180 to 1280 x 720
+
+
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/61686244/129530563-294e55b3-2db1-4aea-8dfd-97ecc94dbf8f.gif)
 
 
