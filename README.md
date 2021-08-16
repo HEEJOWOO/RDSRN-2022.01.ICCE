@@ -62,7 +62,7 @@
  * FSR : 0.5, Recursion : 3
  * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
 
-|-----|Input(340x191)|Ground Truth(1360x764)|Bicubic Upsample(1360x764)|Super Resolution(1360x764)|
+||Input(340x191)|Ground Truth(1360x764)|Bicubic Upsample(1360x764)|Super Resolution(1360x764)|
 |-----|--------------|----------------------|--------------------------|--------------------------|
 
 
