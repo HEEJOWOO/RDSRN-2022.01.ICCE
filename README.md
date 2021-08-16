@@ -32,6 +32,9 @@
 
 
 
+## Qualitative comparison(Video SR)
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/61686244/129529083-b3ac6038-87ef-4835-998b-678837b732d3.gif)
 
 
 ## Qualitative comparison(Super Resolution)
