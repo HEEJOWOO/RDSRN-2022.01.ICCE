@@ -33,6 +33,11 @@
 
 
 
+## Qualitative comparison(Video SR)
+### Use a modified [RDSRN](https://github.com/HEEJOWOO/RDSRN)(It will be updated soon.)
+
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/61686244/129530563-294e55b3-2db1-4aea-8dfd-97ecc94dbf8f.gif)
+
 
 
 ## Qualitative comparison(Super Resolution)
