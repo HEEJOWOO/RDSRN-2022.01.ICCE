@@ -45,12 +45,16 @@
  * Results of testing using Urban100 data set
  * Scale Factor : x4
 
-![image](https://user-images.githubusercontent.com/61686244/131208485-bb5c7041-bac6-4641-940d-99df22679983.png)
+|HR(Ground Truth)|Bicubic|SRCNN|RDN|CARN|RDSRN|
+|----------------|-------|-----|---|----|-----|
+|![image](https://user-images.githubusercontent.com/61686244/131208523-2b913c1a-d8ea-40f5-84c1-8cf267d3c05d.png)|![image](https://user-images.githubusercontent.com/61686244/131208528-f4ca11ef-c461-4eca-827b-5a733b8da30f.png)|![image](https://user-images.githubusercontent.com/61686244/131208531-9f838e59-adb7-4986-b692-9bc86de9f600.png)|![image](https://user-images.githubusercontent.com/61686244/131208533-dbfd69d7-3ba9-449d-91d9-a0ad7ac7432b.png)|![image](https://user-images.githubusercontent.com/61686244/131208534-bf087cd4-58fd-4983-a5cf-7cad256fefc2.png)|![image](https://user-images.githubusercontent.com/61686244/131208536-1ef2f375-51e6-4d64-becd-8cb501753ab7.png)
 
 
-![image](https://user-images.githubusercontent.com/61686244/131208477-a25c93f7-7602-4fda-b5b5-303b7f53f730.png)
 
-![image](https://user-images.githubusercontent.com/61686244/131208480-e267bbbc-a622-4949-8d82-3e15c60030ac.png)
+
+
+
+
 
 
 ## Qualitative comparison(Super Resolution)
