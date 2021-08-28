@@ -40,6 +40,17 @@
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/61686244/129530563-294e55b3-2db1-4aea-8dfd-97ecc94dbf8f.gif)
 
+## Qualitative comparison(Super Resolution)
+ * FSR : 0.5, Recursion : 3
+ * Results of testing using Urban100 data set
+ * Scale Factor : x4
+
+![image](https://user-images.githubusercontent.com/61686244/131208485-bb5c7041-bac6-4641-940d-99df22679983.png)
+
+
+![image](https://user-images.githubusercontent.com/61686244/131208477-a25c93f7-7602-4fda-b5b5-303b7f53f730.png)
+
+![image](https://user-images.githubusercontent.com/61686244/131208480-e267bbbc-a622-4949-8d82-3e15c60030ac.png)
 
 
 ## Qualitative comparison(Super Resolution)
