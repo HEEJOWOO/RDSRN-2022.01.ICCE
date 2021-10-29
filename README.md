@@ -14,7 +14,7 @@
 ![3_2page](https://user-images.githubusercontent.com/61686244/129152703-6b7fce12-baea-4a26-a0c6-41ba8c1adcf9.png)
 
 
-
+  
 ## Train & Val
 Ubuntu 18.04 LTS, Pytorch, RTX 3090 24G
 
