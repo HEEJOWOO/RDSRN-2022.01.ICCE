@@ -175,9 +175,11 @@ Download Igor Pro to check h5 files.
 |---------------|---------------------------|-------------------------------------|
 |![input_LR_noise_crop](https://user-images.githubusercontent.com/61686244/129523971-b5ff8a97-3874-4e06-a2dd-0f6bf0148459.png)|![3_bicubic_x4_crop](https://user-images.githubusercontent.com/61686244/129523981-06d136c7-32b7-4694-be62-503d6f7c3c00.png)|![3_orginal_upsample_x4_crop](https://user-images.githubusercontent.com/61686244/129523991-d7db2951-786f-4adc-9c56-dd0344e59572.png)|
 
-|LR+noise Input(421x128)|Super Resolution+denoising(1684x512)|
-|-----------------------|------------------------------------|
-|![car_number_noise_after](https://user-images.githubusercontent.com/61686244/139525257-fd8fb2d1-c43a-4ce2-b682-6b2d2388f20f.png)|![car_number_noise_after_after_reduction_noise_x4](https://user-images.githubusercontent.com/61686244/139525261-7578b0e8-1a81-4cbe-a2a7-37acd74bfce9.png)|
+|Noise Level|LR+noise Input(421x128)|Super Resolution+denoising(1684x512)|
+|-----------|-----------------------|------------------------------------|
+|Level = 25|![car_number_noise_after](https://user-images.githubusercontent.com/61686244/139525257-fd8fb2d1-c43a-4ce2-b682-6b2d2388f20f.png)|![car_number_noise_after_after_reduction_noise_x4](https://user-images.githubusercontent.com/61686244/139525261-7578b0e8-1a81-4cbe-a2a7-37acd74bfce9.png)|
+|Level = 50|![car_number_ori_add_noise](https://user-images.githubusercontent.com/61686244/139526007-a395e24e-c203-4b17-93cb-631c28da620b.png)|![car_number_ori_add_noise_after_reduction_noise_x4](https://user-images.githubusercontent.com/61686244/139526011-23939234-6123-45a0-820e-25dd5b8d063d.png)|
+
 
 
 
