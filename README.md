@@ -18,7 +18,7 @@ At single-image super-resolution, the number of parameters and computations requ
 
   
 ## Train & Val
-Ubuntu 18.04 LTS, Pytorch, RTX 3090 24G
+Ubuntu Server 18.04 LTS, CUDA 11.0, cuDNN 8.0.4, Pytorch 1.7.1, RTX 3090 24G
 
 The DIV2K, Set5 dataset converted to HDF5 can be downloaded from the links below.
 Download Igor Pro to check h5 files.
