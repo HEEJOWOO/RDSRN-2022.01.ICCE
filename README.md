@@ -26,11 +26,7 @@ $ python train.py --train-file "data/DIV2K_x4.h5" --eval-file "data/Set5_x4.h5" 
 </code>
 </pre>
 
-<pre>
-<code>
-$ python test.py --weights-file "outputs/x4/best.pth"
-</code>
-</pre>
+
 
 The DIV2K, Set5 dataset converted to HDF5 can be downloaded from the links below.
 Download Igor Pro to check h5 files.
@@ -46,6 +42,13 @@ Download Igor Pro to check h5 files.
 
 
 ## Quantitative comparison
+
+<pre>
+<code>
+$ python test.py --weights-file "outputs/x4/best.pth"
+</code>
+</pre>
+
   ### PSNR & SSIM
   
   ### Set5
