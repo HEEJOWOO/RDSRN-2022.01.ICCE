@@ -136,34 +136,6 @@ Download Igor Pro to check h5 files.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
 ## Qualitative comparison(Super Resolution)
  * FSR : 0.5, Recursion : 3
  * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
@@ -203,6 +175,7 @@ Download Igor Pro to check h5 files.
 |![input_LR_noise_crop](https://user-images.githubusercontent.com/61686244/129523971-b5ff8a97-3874-4e06-a2dd-0f6bf0148459.png)|![3_bicubic_x4_crop](https://user-images.githubusercontent.com/61686244/129523981-06d136c7-32b7-4694-be62-503d6f7c3c00.png)|![3_orginal_upsample_x4_crop](https://user-images.githubusercontent.com/61686244/129523991-d7db2951-786f-4adc-9c56-dd0344e59572.png)|
 
 
+## [Super Resolution+denoising+Detection Result](https://github.com/HEEJOWOO/YOLOv5_Training)
 
 
 
