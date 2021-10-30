@@ -34,7 +34,10 @@ Download Igor Pro to check h5 files.
 ## Quantitative comparison
  * PSNR & SSIM
 
-![image](https://user-images.githubusercontent.com/61686244/129210102-c84ec6f5-2469-4b8b-a571-bc039bb6727b.png)
+|Dataset|Scale|SRCNN|VDSR|DRCN|DRRN|MemNet|SRDenseNet|RDN|RCAN|CARN|CBPN|OURS|
+|-------|-----|-----|----|----|----|------|----------|---|----|----|----|----|
+|Set5(PSNR,SSIM)|x2|36.66/0.9542|37.63/0.9587|37.63/0.9588|37.74/0.9597|-|38.24/0.9614|38.27/0.9614|37.76/0.9590|37.90/0.9590|38.08/0.9610|
+
  
  * Params & Multi-Adds
 
