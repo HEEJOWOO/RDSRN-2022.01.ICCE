@@ -40,7 +40,7 @@ Download Igor Pro to check h5 files.
 
 |Dataset|Scale|RDN|RCAN|CARN|CBPN|OURS|
 |-------|-----|---|----|----|----|----|
-|Set5(PSNR,SSIM)|x2||38.24/0.9614|38.27/0.9614|37.76/0.9590|37.90/0.9590|38.08/0.9610|
+|Set5(PSNR,SSIM)|x2|38.24/0.9614|38.27/0.9614|37.76/0.9590|37.90/0.9590|38.08/0.9610|
 
  
  * Params & Multi-Adds
