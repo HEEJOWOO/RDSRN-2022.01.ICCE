@@ -10,9 +10,9 @@ import time
 #test : Set5, Set14, BSD100, Urban100
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--B', type=int, default=1)
-    parser.add_argument('--U', type=int, default=9)
     parser.add_argument('--weights-file', type=str, required=True)
+    parser.add_argument('--U', type=int, default=3)
+    parser.add_argument('--image-file', type=str, required=True)
     parser.add_argument('--scale', type=int, default=4)
     parser.add_argument('--num-features', type=int, default=64)
     parser.add_argument('--growth-rate', type=int, default=64)
@@ -22,7 +22,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     cudnn.benchmark = True
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    model = RDSRN(scale_factor=args.scale,num_channels=args.num_channels,num_features=args.num_features,growth_rate=args.growth_rate,num_layers=args.num_layers,B=args.B, U=args.U).to(device)
+    model = RDSRN(scale_factor=args.scale, num_channels=args.num_channels, num_features=args.num_features,growth_rate=args.growth_rate, U=args.U)
+
     state_dict = model.state_dict()
     for n, p in torch.load(args.weights_file, map_location=lambda storage, loc: storage).items():
         if n in state_dict.keys():
@@ -107,4 +108,4 @@ if __name__ == '__main__':
     print('PSNR: {:.2f}'.format(psnr))
 
     output = pil_image.fromarray(denormalize(preds).permute(1, 2, 0).byte().cpu().numpy())
-    output.save(args.image_file.replace('.', '_rdn_x{}.'.format(args.scale)))
+    output.save(args.image_file.replace('.', '_RDSRN_x{}.'.format(args.scale)))
