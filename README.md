@@ -20,6 +20,18 @@ At single-image super-resolution, the number of parameters and computations requ
 ## Train & Val
 Ubuntu Server 18.04 LTS, CUDA 11.0, cuDNN 8.0.4, Pytorch 1.7.1, RTX 3090 24G
 
+<pre>
+<code>
+$ python train.py --train-file "data/DIV2K_x4.h5" --eval-file "data/Set5_x4.h5" --outputs-dir "outputs"
+</code>
+</pre>
+
+<pre>
+<code>
+$ python test.py --weights-file "outputs/x4/best.pth"
+</code>
+</pre>
+
 The DIV2K, Set5 dataset converted to HDF5 can be downloaded from the links below.
 Download Igor Pro to check h5 files.
 |Dataset|Scale|Type|Link|
