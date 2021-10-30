@@ -32,7 +32,8 @@ Download Igor Pro to check h5 files.
 
 
 ## Quantitative comparison
- * PSNR & SSIM
+  ### PSNR & SSIM
+  
   ### Set5
 
 |Dataset|Scale|SRCNN|VDSR|DRCN|DRRN|MemNet|RDN|RCAN|CARN|CBPN|OURS|
@@ -90,7 +91,7 @@ Download Igor Pro to check h5 files.
 |-------|-----|-----|----|----|----|------|---|----|----|----|----|
 |Urban100(PSNR,SSIM)|x4|24.52/0.7226|27.14/0.8279|27.15/0.8277|27.53/0.8377|27.56/0.8376|26.61/0.8028|26.82/0.8087|26.07/0.7837|26.14/0.7869|26.29/0.7918|
  
- * Params & Multi-Adds
+ ### Params & Multi-Adds
 
 |x4|SRCNN|VDSR|DRCN|DRRN|MemNet|RDN|RCAN|CARN|CBPN|OURS|
 |--|-----|----|----|----|------|---|----|----|----|----|
@@ -104,14 +105,14 @@ Download Igor Pro to check h5 files.
 |Processing Time(sec)|0.0172|0.066|0.0108|0.0082|
 
 
-## Qualitative comparison(Video SR)
+ ### Qualitative comparison(Video SR)
  *  Video SR result confirmation at scale factor X4 using bicubic upsample (Left) and proposed network (Right)
  *  320 x 180 to 1280 x 720
 
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/61686244/129530563-294e55b3-2db1-4aea-8dfd-97ecc94dbf8f.gif)
 
-## Qualitative comparison(Super Resolution)
+ ### Qualitative comparison(Super Resolution)
  * FSR : 0.5, Recursion : 3
  * Results of testing using Urban100 data set
  * Scale Factor : x4
@@ -136,7 +137,7 @@ Download Igor Pro to check h5 files.
 
 
 
-## Qualitative comparison(Super Resolution)
+ ### Qualitative comparison(Super Resolution)
  * FSR : 0.5, Recursion : 3
  * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
 
@@ -160,7 +161,7 @@ Download Igor Pro to check h5 files.
 |![13_input_x4](https://user-images.githubusercontent.com/61686244/129206595-d3b75a79-f3a7-4e15-af54-3759518f32c5.png)|![100981](https://user-images.githubusercontent.com/61686244/129206679-cd2e70c3-86a3-4e34-831a-bd953de30ddc.png)|![13_bicubic_x4](https://user-images.githubusercontent.com/61686244/129206724-0a3bcd04-b440-4e5c-8ccc-92c5460420cb.png)|![13_SR_x4](https://user-images.githubusercontent.com/61686244/129206753-ae0eef7b-4e36-448a-a30d-df60210aa171.png)|
 |Crop Image ->|![100981_crop](https://user-images.githubusercontent.com/61686244/129206804-7ceaf27b-10b9-412e-bce4-e50c702b3416.png)|![13_bicubic_x4_crop](https://user-images.githubusercontent.com/61686244/129206840-bd79d73a-dfa6-4dc4-a0be-14ec48b56382.png)|![13_SR_x4_crop](https://user-images.githubusercontent.com/61686244/129206875-59fc9e09-dec2-4df1-b055-1d9b4c769cec.png)|
 
-## Qualitative comparison(Super Resolution+denoising)
+ ### Qualitative comparison(Super Resolution+denoising)
  * FSR : 0.5, Recursion : 3
  * Results of training and testing using the [Visdrone](http://aiskyeye.com/) data set
  * Replaced with crop image due to image size
@@ -180,7 +181,7 @@ Download Igor Pro to check h5 files.
 
 
 
-## [Super Resolution+denoising+Detection Result](https://github.com/HEEJOWOO/YOLOv5_Training)
+ ### [Super Resolution+denoising+Detection Result](https://github.com/HEEJOWOO/YOLOv5_Training)
 
 
 
