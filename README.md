@@ -92,14 +92,16 @@ Download Igor Pro to check h5 files.
  
  * Params & Multi-Adds
 
-![image](https://user-images.githubusercontent.com/61686244/129209904-4d76255a-a2ec-4b34-8bd9-9ac20335d1fe.png)
+|x4|SRCNN|VDSR|DRCN|DRRN|MemNet|RDN|RCAN|CARN|CBPN|OURS|
+|--|-----|----|----|----|------|---|----|----|----|----|
+|Parameter(M)|0.057|0.066|1.7|0.29|0.67|22|16|1.5|1.1|0.68|
+|Multi-Adds(G)|52.7|612.6|17,974.3|6,796.9|2,662.4|1,309|919.9|90.9|97.9|136|
 
  * Processing Time
 
-![image](https://user-images.githubusercontent.com/61686244/129210191-c1fe199b-efbc-465b-9e96-c32f706c6220.png)
-
-
-
+|Set5, x4|RDN|RCAN|CARN|OURS|
+|--------|---|----|----|----|
+|Processing Time(sec)|0.0172|0.066|0.0108|0.0082|
 
 
 ## Qualitative comparison(Video SR)
