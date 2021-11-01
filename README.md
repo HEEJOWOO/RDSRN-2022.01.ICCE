@@ -15,15 +15,47 @@ At single-image super-resolution, the number of parameters and computations requ
 
 ![3_2page](https://user-images.githubusercontent.com/61686244/129152703-6b7fce12-baea-4a26-a0c6-41ba8c1adcf9.png)
 
-## Docker
 
+  
+## Train & Val
+
+### Docker
 <pre>
 <code>
 $ sudo docker pull heejowoo/rdsrn_docker:ver2
 </code>
 </pre>
-  
-## Train & Val
+
+<pre>
+<code>
+worksout
+  ├──train.py
+  ├──test.py
+  ├──models.py
+  ├──utils.py
+  ├──Flops
+  └──data
+      ├── Set5
+      ├── Set14
+      ├── BSD100
+      └── Urban100               
+  └──BLAH_BLAH
+      ├── DIV2K_x2.h5
+      ├── DIV2K_x3.h5
+      ├── DIV2K_x4.h5
+      ├── Set5_x2.h5
+      ├── Set5_x3.h5
+      ├── Set5_x4.h5
+      └── outputs
+            └── x2
+                 └── best.pth
+            └── x3
+                 └── best.pth  
+            └── x4
+                 └── best.pth            
+</code>
+</pre>
+
 Ubuntu Server 18.04 LTS, CUDA 11.0, cuDNN 8.0.4, Pytorch 1.7.1, RTX 3090 24G
 
 <pre>
