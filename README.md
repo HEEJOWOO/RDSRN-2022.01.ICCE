@@ -19,7 +19,7 @@ At single-image super-resolution, the number of parameters and computations requ
 
 <pre>
 <code>
-$ --
+$ sudo docker pull heejowoo/rdsrn_docker:ver2
 </code>
 </pre>
   
