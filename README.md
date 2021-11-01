@@ -33,7 +33,7 @@ workspace
   ├──test.py
   ├──models.py
   ├──utils.py
-  ├──Flops
+  ├──FLOPs
   └──data
       ├── Set5
       ├── Set14
