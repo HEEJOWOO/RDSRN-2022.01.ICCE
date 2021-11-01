@@ -28,7 +28,7 @@ $ sudo docker pull heejowoo/rdsrn_docker:ver2
 
 <pre>
 <code>
-worksout
+workspace
   ├──train.py
   ├──test.py
   ├──models.py
