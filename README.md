@@ -89,7 +89,7 @@ $ python test.py --weights-file "outputs/x4/best.pth"
 
   ### PSNR & SSIM
   
-  ### Set5
+  
 
 |Dataset|Scale|RDN|RCAN|CARN|CBPN|OURS|
 |-------|-----|---|----|----|----|----|
