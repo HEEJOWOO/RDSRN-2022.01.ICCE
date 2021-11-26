@@ -5,6 +5,7 @@
 ## Abstract
 At single-image super-resolution, the number of parameters and computations required by deep networks increase, due to the excessive use of convolutional neural networks. So, deep networks could be difficult to use in real-time or low-power devices. To overcome this problem, we propose a lightweight recursive distillation super-resolution network (RDSRN) that uses recursive and information distillation methods to gradually extract hierarchical features, and creates more accurate high-frequency components using high-frequency residual refinement blocks (HFRRB). Experimental results show that the proposed method has better performance with fewer parameters, fewer computations, and faster processing than the conventional methods.
 
+
 ## Network Architecture  
 
 ![0_2page](https://user-images.githubusercontent.com/61686244/129152667-385afc5f-17dd-439b-a972-95af90b3ce85.png)
