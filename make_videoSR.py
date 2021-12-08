@@ -121,3 +121,5 @@ for index in progress_bar:
 
         # next frame
         success, raw_frame = video_capture.read()
+        
+        
