@@ -1,7 +1,7 @@
 # Recursive Distillation Super Resolution Network(RDSRN)
  [IEEE 40th International Conference on Consumer Electronics](https://www.icce.org/)
   * This is a repository for the network used in the master graduation paper.
-
+  * [YouTube](https://youtu.be/RPymihdOEog)
 ## Abstract
 At single-image super-resolution, the number of parameters and computations required by deep networks increase, due to the excessive use of convolutional neural networks. So, deep networks could be difficult to use in real-time or low-power devices. To overcome this problem, we propose a lightweight recursive distillation super-resolution network (RDSRN) that uses recursive and information distillation methods to gradually extract hierarchical features, and creates more accurate high-frequency components using high-frequency residual refinement blocks (HFRRB). Experimental results show that the proposed method has better performance with fewer parameters, fewer computations, and faster processing than the conventional methods.
 
