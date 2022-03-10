@@ -32,7 +32,7 @@ if torch.cuda.is_available() and not args.cuda:
 device = torch.device("cuda:0" if args.cuda else "cpu")
 
 # create model
-model = RDN(scale_factor=2,num_channels=3,num_features=64,growth_rate=64,num_blocks=16, num_layers=8).to(device)
+model = RDSRN(scale_factor=2,num_channels=3,num_features=64,growth_rate=64,num_blocks=16, num_layers=8).to(device)
 
 # Load state dicts
 model.load_state_dict(torch.load(args.weights, map_location=device))
