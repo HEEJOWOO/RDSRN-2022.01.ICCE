@@ -1,5 +1,5 @@
 # Recursive Distillation Super Resolution Network(RDSRN)
- [IEEE 40th International Conference on Consumer Electronics](https://www.icce.org/)
+ [IEEE 40th International Conference on Consumer Electronics](https://ieeexplore.ieee.org/document/9730464)
   * This is a repository for the network used in the master graduation paper.
   * [YouTube](https://youtu.be/RPymihdOEog)
 ## Abstract
